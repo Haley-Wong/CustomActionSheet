@@ -2,7 +2,7 @@
 自定义ActionSheetDemo
 
 # 效果图
-![](https://github.com/Joker-King/HLActionSheetDemo/blob/master/Simulator%20Screen%20Shot.png)
+![](https://github.com/Joker-King/CustomActionSheet/blob/master/CustomActionSheet/SimulatorScreenShot.png)
 
 # 使用范例
 ```
