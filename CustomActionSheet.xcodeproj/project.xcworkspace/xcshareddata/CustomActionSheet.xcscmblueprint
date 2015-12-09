@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "072DB5842D9ED2B5D2A5435D885455C74E971DB5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "072DB5842D9ED2B5D2A5435D885455C74E971DB5" : 0,
+    "DDBFF618B0702C1F1F9B0AB2E696E2B72F5C4369" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8B4F42EB-B1DD-46CD-BD0E-9B0200603AFE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "072DB5842D9ED2B5D2A5435D885455C74E971DB5" : "CustomActionSheet\/",
+    "DDBFF618B0702C1F1F9B0AB2E696E2B72F5C4369" : "HLActionSheetDemo\/HLActionSheetDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CustomActionSheet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CustomActionSheet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Joker-King\/CustomActionSheet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "072DB5842D9ED2B5D2A5435D885455C74E971DB5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Joker-King\/HLActionSheetDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDBFF618B0702C1F1F9B0AB2E696E2B72F5C4369"
+    }
+  ]
+}

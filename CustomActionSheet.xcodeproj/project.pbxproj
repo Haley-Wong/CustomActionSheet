@@ -20,8 +20,8 @@
 		B9E62BCF1C182B190073C4DC /* sns_icon_f@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E62BC91C182B190073C4DC /* sns_icon_f@2x.png */; };
 		B9E62BD01C182B190073C4DC /* test01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9E62BCA1C182B190073C4DC /* test01.jpg */; };
 		B9E62BD21C182B260073C4DC /* SimulatorScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E62BD11C182B260073C4DC /* SimulatorScreenShot.png */; };
-		B9E62BD71C182B920073C4DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E62BD41C182B920073C4DC /* ViewController.m */; };
-		B9E62BD81C182B920073C4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E62BD61C182B920073C4DC /* Main.storyboard */; };
+		B9E62BDB1C182EF30073C4DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E62BDA1C182EF30073C4DC /* ViewController.m */; };
+		B9E62BDD1C182F460073C4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E62BDC1C182F460073C4DC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +43,9 @@
 		B9E62BC91C182B190073C4DC /* sns_icon_f@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sns_icon_f@2x.png"; sourceTree = "<group>"; };
 		B9E62BCA1C182B190073C4DC /* test01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test01.jpg; sourceTree = "<group>"; };
 		B9E62BD11C182B260073C4DC /* SimulatorScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimulatorScreenShot.png; sourceTree = "<group>"; };
-		B9E62BD31C182B920073C4DC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../HLActionSheetDemo/HLActionSheetDemo/ViewController.h; sourceTree = "<group>"; };
-		B9E62BD41C182B920073C4DC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../HLActionSheetDemo/HLActionSheetDemo/ViewController.m; sourceTree = "<group>"; };
-		B9E62BD51C182B920073C4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9E62BD91C182EF30073C4DC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9E62BDA1C182EF30073C4DC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9E62BDC1C182F460073C4DC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 			children = (
 				B9E62BAA1C182AE50073C4DC /* AppDelegate.h */,
 				B9E62BAB1C182AE50073C4DC /* AppDelegate.m */,
-				B9E62BD31C182B920073C4DC /* ViewController.h */,
-				B9E62BD41C182B920073C4DC /* ViewController.m */,
-				B9E62BD61C182B920073C4DC /* Main.storyboard */,
+				B9E62BD91C182EF30073C4DC /* ViewController.h */,
+				B9E62BDA1C182EF30073C4DC /* ViewController.m */,
+				B9E62BDC1C182F460073C4DC /* Main.storyboard */,
 				B9E62BBE1C182B050073C4DC /* HLActionSheet.h */,
 				B9E62BBF1C182B050073C4DC /* HLActionSheet.m */,
 				B9E62BC01C182B050073C4DC /* HLActionSheetItem.h */,
@@ -176,7 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9E62BD21C182B260073C4DC /* SimulatorScreenShot.png in Resources */,
-				B9E62BD81C182B920073C4DC /* Main.storyboard in Resources */,
+				B9E62BDD1C182F460073C4DC /* Main.storyboard in Resources */,
 				B9E62BB71C182AE50073C4DC /* LaunchScreen.storyboard in Resources */,
 				B9E62BB41C182AE50073C4DC /* Assets.xcassets in Resources */,
 				B9E62BCB1C182B190073C4DC /* sns_icon_1@2x.png in Resources */,
@@ -199,7 +199,7 @@
 				B9E62BC31C182B050073C4DC /* HLActionSheetItem.m in Sources */,
 				B9E62BAC1C182AE50073C4DC /* AppDelegate.m in Sources */,
 				B9E62BA91C182AE50073C4DC /* main.m in Sources */,
-				B9E62BD71C182B920073C4DC /* ViewController.m in Sources */,
+				B9E62BDB1C182EF30073C4DC /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,15 +212,6 @@
 				B9E62BB61C182AE50073C4DC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B9E62BD61C182B920073C4DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9E62BD51C182B920073C4DC /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../../HLActionSheetDemo/HLActionSheetDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
